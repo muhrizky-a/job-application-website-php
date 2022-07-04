@@ -1,0 +1,68 @@
+.lowongan-list {
+    padding: 20px;
+}
+
+.lowongan-list p {
+    color: #333;
+}
+
+.judul {
+    display: flex;
+}
+
+.judul a {
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    background-color: #2a41e8;
+    margin-left: auto;
+    border-radius: 5px;
+}
+
+span[class^="status-"] {
+    color: white;
+    padding: 2px 5px;
+}
+
+.additional-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.additional-info {
+    padding: 10px 0;
+}
+
+.additional-info span {
+    background-color: #333;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+span {
+    color: white;
+    padding: 2px 5px;
+}
+
+.detail-btn {
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    background-color: #2a41e8;
+    border-radius: 5px;
+}
+
+.bg-green,
+.edit-btn {
+    background-color: #198754;
+}
+
+.bg-red,
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.bg-yellow {
+    background-color: #dcb535;
+}

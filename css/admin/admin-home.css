@@ -1,0 +1,61 @@
+.pending-companies {
+    padding: 20px;
+}
+
+.pending-companies p {
+    color: #333;
+}
+
+.company-card {
+    background-color: #f7f7f7;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+}
+
+.company-info {
+    margin-right: 10px;
+}
+
+.company-image-wrapper,
+.company-pic {
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.company-image-wrapper {
+    overflow: hidden;
+    border: 1px solid #eee;
+    border-radius: 2px;
+}
+
+.company-pic {
+    object-position: center;
+    object-fit: contain;
+}
+
+.company-card .action {
+    font-size: 20px;
+    margin: auto 0;
+    margin-left: auto;
+    width: 65px;
+    min-width: 65px;
+}
+
+.company-card .action a {
+    padding: 5px;
+    color: white;
+}
+
+.valid-btn {
+    background-color: #198754;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}

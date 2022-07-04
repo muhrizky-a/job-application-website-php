@@ -1,0 +1,20 @@
+.pending-companies {
+    padding: 20px;
+}
+
+.pending-companies p {
+    color: #333;
+}
+
+.valid-btn {
+    background-color: #198754;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.valid-btn:hover,
+.delete-btn:hover {
+    cursor: pointer;
+}

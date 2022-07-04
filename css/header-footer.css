@@ -1,0 +1,108 @@
+nav,
+footer {
+    background-color: #2a41e8;
+    width: 100%;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+nav ul li,
+nav a {
+    padding: 20px 0;
+}
+
+nav a:hover {
+    /* background-color: #df8107; */
+    font-weight: bold;
+    transition: 500ms;
+}
+
+.login-nav,
+.logout-nav,
+.nav-btn-section {
+    padding: 20px 10px;
+}
+
+.login-nav,
+.logout-nav {
+    margin-left: auto;
+}
+
+.nav-btn-section a {
+    margin: auto;
+    padding: 5px 15px;
+    border: 2px solid #df8107;
+    border-radius: 5px;
+}
+
+.nav-btn-section a:hover {
+    background-color: #df8107;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.dashboard-content footer:only-child,
+.empty+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+@media screen and (max-width: 523px) {
+    nav {
+        display: block;
+    }
+    nav ul {
+        display: none;
+    }
+    nav ul li,
+    nav ul li a,
+    .login-nav a {
+        padding: 5px;
+        margin-left: 5px;
+        text-align: left;
+        display: inline-block;
+        width: 100%;
+    }
+    .nav-btn-section {
+        display: block;
+    }
+    .active {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 524px) {
+    nav,
+    nav ul,
+    .active {
+        display: flex;
+    }
+    nav ul li {
+        padding: 20px 0;
+    }
+    nav a {
+        padding: 20px;
+    }
+    .nav-btn-section {
+        display: none;
+    }
+}

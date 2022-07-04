@@ -1,0 +1,143 @@
+  .penuh {
+      width: 100%;
+  }
+  
+  header {
+      position: relative;
+      height: 500px;
+      width: 100%;
+      overflow: hidden;
+      z-index: 2;
+  }
+  
+  header img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+      z-index: -2;
+      width: 1400px;
+  }
+  
+  header .banner {
+      z-index: 100;
+      color: #fff;
+      text-align: center;
+      position: relative;
+      top: 50%;
+  }
+  
+  header .banner h3 {
+      font-size: 50px;
+      margin-top: 150px;
+      padding: 0;
+  }
+  
+  header .banner p {
+      font-size: 20px;
+      color: #66806A;
+  }
+  
+  header .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: #000;
+      opacity: 40%;
+      z-index: -1;
+  }
+  
+  #search-box {
+      position: relative;
+      width: 70%;
+      margin: 0;
+      margin-left: 230px;
+      margin-top: 50px;
+  }
+  
+  #search-form {
+      height: 40px;
+      border: 1px solid #999;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      background-color: white;
+      overflow: hidden;
+  }
+  
+  #search-text {
+      font-size: 14px;
+      color: #ddd;
+      border-width: 0;
+      background: transparent;
+  }
+  
+  #search-box input[type="text"] {
+      width: 90%;
+      padding: 11px 0 12px 1em;
+      color: #333;
+      outline: none;
+  }
+  
+  #search-button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 42px;
+      width: 80px;
+      font-size: 14px;
+      color: #fff;
+      text-align: center;
+      line-height: 42px;
+      border-width: 0;
+      background-color: #1a7db7;
+      -webkit-border-radius: 0px 5px 5px 0px;
+      -moz-border-radius: 0px 5px 5px 0px;
+      border-radius: 0px 5px 5px 0px;
+      cursor: pointer;
+  }
+  
+  .container {
+      width: 80%;
+      margin: 0 auto;
+  }
+  
+  .container::after {
+      clear: both;
+      display: block;
+      content: "";
+  }
+  
+  .section {
+      padding: 25px 0;
+      margin-top: 30px;
+  }
+  
+  .box {
+      padding: 15px;
+      box-sizing: border-box;
+      margin: 10px 0 25px 0;
+      box-shadow: 0px -10px 30px #ccc;
+  }
+  
+  .box::after {
+      content: "";
+      display: block;
+      clear: both;
+  }
+  
+  .col-5 {
+      width: 20%;
+      height: 100px;
+      float: left;
+      text-align: center;
+      padding: 10px;
+      box-sizing: border-box;
+  }
+  
+  .col-5 img {
+      width: 60px;
+      margin-bottom: 5px;
+  }

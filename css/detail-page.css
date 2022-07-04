@@ -1,0 +1,171 @@
+.banner,
+.container {
+    width: 100%;
+    padding: 50px 100px;
+}
+
+.profile,
+.row {
+    max-width: 1000px;
+    margin: 0 auto
+}
+
+.banner {
+    background-color: #222;
+}
+
+.profile {
+    /* background-color: #f7f7f7; */
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.profile-info {
+    margin-right: 10px;
+}
+
+.profile-detail {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 20px;
+    color: #ddd;
+}
+
+.profile-detail h2 {
+    color: rgb(253, 252, 252);
+}
+
+.profile-detail p {
+    margin-top: 10px
+}
+
+.image-wrapper,
+.picture {
+    min-width: 150px;
+    max-width: 150px;
+    min-height: 150px;
+    max-height: 150px;
+}
+
+.image-wrapper {
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.picture {
+    object-position: center;
+    object-fit: cover;
+}
+
+.additional-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.additional-info {
+    padding: 10px 0;
+}
+
+.additional-info span {
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    background-color: #333;
+    margin-right: 10px;
+}
+
+
+/**/
+
+.row {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+}
+
+.content {
+    padding: 10px;
+}
+
+.content-info {
+    margin-bottom: 50px;
+}
+
+.content-info h3 {
+    margin-bottom: 10px;
+}
+
+.sidebar {
+    color: #222;
+}
+
+.sidebar-title,
+.sidebar-info,
+.sidebar-detail {
+    padding: 10px;
+}
+
+.sidebar-action {
+    text-align: center;
+    margin: 10px 0;
+    padding: 10 0px;
+}
+
+.sidebar-action a {
+    background-color: #2a41e8;
+    color: #eee;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.sidebar-title {
+    background-color: #eee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.sidebar-info {
+    background-color: #f7f7f7;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.bg-red {
+    background-color: #dc3545 !important;
+}
+
+
+/*style icon*/
+
+.sidebar-detail .fa {
+    color: #2a41e8;
+}
+
+@media screen and (max-width: 900px) {
+    .row {
+        display: block;
+    }
+    .sidebar,
+    .content {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+    .content {
+        flex: 6;
+    }
+    .sidebar {
+        flex: 4;
+    }
+}
